@@ -1,0 +1,52 @@
+:root {
+  --clr-pri: #000;
+  --clr-sec: #2639ed;
+
+  --clr-card1: #fff7e3;
+  --clr-card2: #f1f7ff;
+  --clr-card3: #deffee;
+  --clr-card4: #fff2f8;
+
+  --border-radius_card: 20px;
+
+  --ff-pri: 'Averta demo pe cutted demo', sans-serif;
+
+  --ff-regular: 400;
+  --ff-bold: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff-pri);
+  font-weight: var(--ff-regular);
+}
+
+/* Nav Styles */
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 120px;
+  margin-top: 42px;
+}
+
+.nav_container-title {
+  color: var(--clr-pri);
+  font-size: 2.625rem;
+}
+
+.nav_container-span {
+  font-weight: var(--ff-bold);
+}
+
+.nav_container-ul {
+  list-style: none;
+  display: flex;
+  gap: 3.75rem;
+}
+
+.nav_container-a {
+  text-decoration: none;
+  color: var(--clr-pri);
+}
