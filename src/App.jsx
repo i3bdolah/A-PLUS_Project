@@ -1,10 +1,24 @@
 import './App.css'
-import Nav from './components/Nav'
+import {
+  Nav,
+  Hero,
+  Service,
+  Project,
+  Testimonials,
+  Newsletter,
+  Footer,
+} from './components/index'
 
 const App = () => {
   return (
     <>
       <Nav />
+      <Hero />
+      <Service />
+      <Project />
+      <Testimonials />
+      <Newsletter />
+      <Footer />
     </>
   )
 }

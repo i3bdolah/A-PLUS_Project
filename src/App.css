@@ -1,6 +1,7 @@
 :root {
   --clr-pri: #000;
   --clr-sec: #2639ed;
+  --clr-thr: #565656;
 
   --clr-card1: #fff7e3;
   --clr-card2: #f1f7ff;
@@ -13,6 +14,14 @@
 
   --ff-regular: 400;
   --ff-bold: 900;
+
+  --font-heading: 2.5rem /* 40px */
+  --font-logo: 1.696875rem /* 27.15px */
+  --font-subHeading: 1.5rem /* 24px */
+  --font-content: 1rem /* 16px */
+
+  --line-hieght: 25px;
+
 }
 
 * {
@@ -27,8 +36,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 120px;
-  margin-top: 42px;
+  margin: 42px 120px;
+
 }
 
 .nav_container-title {
@@ -49,4 +58,83 @@
 .nav_container-a {
   text-decoration: none;
   color: var(--clr-pri);
+  font-size: var(--font-content);
+}
+
+/* Hero Styles */
+
+.hero_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero_container-right {
+  background: url('./assets/people/hero-pic.png');
+  width: 754px;
+  height: 512px;
+  left: 686px;
+  top: 116px;
+  border-radius: 0px 0px 0px 200px;
+
+}
+
+.hero_container-right-circle {
+  position: relative;
+  bottom: 49px;
+  right: 64.5px;
+  z-index: -1;
+
+}
+
+.hero_container-right-rectangle {
+  position: relative;
+  position: relative;
+  top: 429px;
+  left: 364.5px;
+  z-index: -1;
+}
+
+.hero_container-left {
+  max-width: 45%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hero_container-left-title {
+  font-size: 2.75rem;
+  font-weight: var(--ff-bold);
+}
+
+.hero_container-left-subtitle {
+  font-size: 1rem;
+  font-weight: var(--ff-regular);
+  color: var(--clr-thr);
+  width: 470px;
+}
+
+.hero_container-left-btn {
+  padding: 20px 40px;
+  border-radius: 60px;
+  color: #fff;
+  background-color: var(--clr-sec);
+  border: 0;
+  font-size: 1.5rem;
+}
+
+.hero_container-left-dots {
+  /* width: 100%; */
+  width: 404px;
+  height: 154px;
+  position: relative;
+  top: 150px;
+  right: 260px;
+  z-index: -1;
+  margin-top: -200px;
+
+}
+
+.hero_container-left-btn-container {
 }
