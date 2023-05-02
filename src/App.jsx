@@ -2,6 +2,7 @@ import './App.css'
 import {
   Nav,
   Hero,
+  OurClient,
   Service,
   Project,
   Testimonials,
@@ -14,11 +15,12 @@ const App = () => {
     <>
       <Nav />
       <Hero />
+      <OurClient />
       <Service />
-      <Project />
+      {/* <Project />
       <Testimonials />
       <Newsletter />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }
