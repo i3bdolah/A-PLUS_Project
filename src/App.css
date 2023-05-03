@@ -16,10 +16,10 @@
   --ff-regular: 400;
   --ff-bold: 900;
 
-  --font-heading: 2.5rem /* 40px */
-  --font-logo: 1.696875rem /* 27.15px */
-  --font-subHeading: 1.5rem /* 24px */
-  --font-content: 1rem /* 16px */
+  --fs-heading: 2.5rem /* 40px */
+  --fs-logo: 1.696875rem /* 27.15px */
+  --fs-subHeading: 1.5rem /* 24px */
+  --fs-content: 1rem /* 16px */
 
   --line-hieght: 25px;
 
@@ -30,6 +30,8 @@
   padding: 0;
   font-family: var(--ff-pri);
   font-weight: var(--ff-regular);
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
@@ -188,11 +190,12 @@ body {
 }
 
 /* Service Style */
-.service {
-  margin-top: 200px;
+.service-parent-container {
+  margin: 200px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* height: 00px; */
 }
 
 .service-container-r {
@@ -212,8 +215,8 @@ body {
 .serviceDots {
   position: relative;
   top: 200px;
-  left: 100px;
-  width: 600px;
+  left: 50px;
+  width: 500px;
 
 
 }
@@ -317,5 +320,78 @@ body {
 }
 
 .card-img-con-l {
+}
 
+/* Project Style */
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 400px 0 100px 0;
+}
+
+.project-container_img {
+  background: url('./assets/people/project-people.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 550px;
+  height: 372px;
+  box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 32px;
+}
+
+.project-container_img_play_icon {
+  width: 78px;
+  height: 78px;
+  margin: auto auto;
+  display: block;
+  position: relative;
+  top: 150px;
+  border-radius: 100%;
+  
+
+}
+
+.project-container_img_bg_cir {
+  width: 129px;
+  height: 129px;
+  position: relative;
+  top: 230px;
+  left: 470px;
+  z-index: -1;
+}
+
+
+.project-container_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 45rem;
+}
+
+.project-container_text_title {
+  font-size: 2.5rem;
+  font-weight: var(--ff-bold);
+}
+
+.project-container_text_subtitle {
+  font-size: 1rem;
+  color: var(--clr-thr);
+}
+
+.project-container_text_bg_rec {
+  position: absolute;
+  top: 70px;
+  left: -40px;
+  width: 178px; 
+  z-index: -1;
+}
+
+.abdullah {  
+  position: relative;
+  display: flex;
 }
