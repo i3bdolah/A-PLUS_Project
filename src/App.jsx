@@ -1,4 +1,4 @@
-import './App.css'
+import "./App.css";
 import {
   Nav,
   Hero,
@@ -8,7 +8,7 @@ import {
   Testimonials,
   Newsletter,
   Footer,
-} from './components/index'
+} from "./components/index";
 
 const App = () => {
   return (
@@ -18,11 +18,11 @@ const App = () => {
       <OurClient />
       <Service />
       <Project />
-      {/* <Testimonials /> */}
-      {/* <Newsletter /> */}
-      {/* <Footer /> */}
+      <Testimonials />
+      <Newsletter />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const Nav = () => {
   return (
-    <div className="nav nav_container">
+    <div id="Home" className="nav nav_container">
       <p className="nav nav_container-title">
         <span className="nav nav_container-span">A+ </span>Studio
       </p>
@@ -13,11 +13,7 @@ const Nav = () => {
               Home
             </a>
           </li>
-          <li className="nav nav_container-li">
-            <a className="nav_container-a" href="#What">
-              What We Do
-            </a>
-          </li>
+
           <li className="nav nav_container-li">
             <a className="nav_container-a" href="#Service">
               Service
@@ -29,8 +25,13 @@ const Nav = () => {
             </a>
           </li>
           <li className="nav nav_container-li">
-            <a className="nav_container-a" href="#Blog">
-              Blog
+            <a className="nav_container-a" href="#Testimonials">
+              Testimonials
+            </a>
+          </li>
+          <li className="nav nav_container-li">
+            <a className="nav_container-a" href="#Newsletter">
+              Newsletter
             </a>
           </li>
           <li className="nav nav_container-li">
@@ -41,7 +42,7 @@ const Nav = () => {
         </ul>
       </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

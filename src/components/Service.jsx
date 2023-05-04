@@ -1,48 +1,48 @@
-import React from 'react'
-import serviceRecCont from '../assets/backgrounds/service-rec.png'
-import serviceCircle from '../assets/backgrounds/service-cir.png'
-import serviceDots from '../assets/backgrounds/dots.png'
-import serviceRecSm from '../assets/backgrounds/sm-service-rec.png'
+import React from "react";
+import serviceRecCont from "../assets/backgrounds/service-rec.png";
+import serviceCircle from "../assets/backgrounds/service-cir.png";
+import serviceDots from "../assets/backgrounds/dots.png";
+import serviceRecSm from "../assets/backgrounds/sm-service-rec.png";
 // import CardService from './CardService'
-import Business from '../assets/help/business.png'
-import Market from '../assets/help/market.png'
-import Development from '../assets/help/development.png'
-import Financial from '../assets/help/financial.png'
+import Business from "../assets/help/business.png";
+import Market from "../assets/help/market.png";
+import Development from "../assets/help/development.png";
+import Financial from "../assets/help/financial.png";
 
 const cardsInfo = [
   {
     id: 1,
-    title: 'Business Idea Planning',
-    description: 'We present you a proposal and discuss niffty-gritty like',
+    title: "Business Idea Planning",
+    description: "We present you a proposal and discuss niffty-gritty like",
     img: Business,
-    color: '#F1F7FF',
+    color: "#F1F7FF",
   },
   {
     id: 3,
-    title: 'Development Website and App',
-    description: 'Communication protocols apart from engagement models',
+    title: "Development Website and App",
+    description: "Communication protocols apart from engagement models",
     img: Development,
-    color: '#FFF2F8',
+    color: "#FFF2F8",
   },
-]
+];
 
 const cardsInfo2 = [
   {
     id: 2,
-    title: 'Financial Planning System',
-    description: 'Protocols apart from aengage models, pricing billing',
+    title: "Financial Planning System",
+    description: "Protocols apart from aengage models, pricing billing",
     img: Financial,
-    color: '#FFF7E3',
+    color: "#FFF7E3",
   },
 
   {
     id: 4,
-    title: 'Market Analysis Project',
-    description: 'Protocols apart from aengage models, pricing billing',
+    title: "Market Analysis Project",
+    description: "Protocols apart from aengage models, pricing billing",
     img: Market,
-    color: '#DEFFEE',
+    color: "#DEFFEE",
   },
-]
+];
 const CardService = () => {
   return (
     <div id="card">
@@ -64,7 +64,7 @@ const CardService = () => {
           </div>
         ))}
       </div>
-      <div className="card-img-con-r">
+      <div id="Service" className="card-img-con-r">
         {cardsInfo2.map((el) => (
           <div className="card-container" key={el.id}>
             <div className="card-img-container">
@@ -83,8 +83,8 @@ const CardService = () => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
 const Service = () => {
   return (
@@ -113,7 +113,7 @@ const Service = () => {
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Service
+export default Service;
