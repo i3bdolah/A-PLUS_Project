@@ -106,11 +106,6 @@ const Service = () => {
         <div>
           <CardService />
         </div>
-        <img
-          src={serviceCircle}
-          alt="serviceCircle"
-          className="serviceCircle"
-        />
       </div>
     </div>
   );

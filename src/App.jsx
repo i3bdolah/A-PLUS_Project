@@ -12,7 +12,7 @@ import {
 
 const App = () => {
   return (
-    <>
+    <main>
       <Nav />
       <Hero />
       <OurClient />
@@ -21,7 +21,7 @@ const App = () => {
       <Testimonials />
       <Newsletter />
       <Footer />
-    </>
+    </main>
   );
 };
 

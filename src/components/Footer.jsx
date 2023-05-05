@@ -144,13 +144,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className="footer-hr" />
-      <p className="footer-copyright">
-        Copyright © 2022
-        <br />
-        Designed by Avi Yansah
-        <br />
-        Build by Abdullah Ban
-      </p>
+      <p className="footer-copyright">Copyright © 2022 Abdullah Ban</p>
     </div>
   );
 };

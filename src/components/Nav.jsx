@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Nav = () => {
   return (
@@ -40,6 +41,7 @@ const Nav = () => {
             </a>
           </li>
         </ul>
+        <AiOutlineMenu className="AiIcon" size="30px" />
       </nav>
     </div>
   );

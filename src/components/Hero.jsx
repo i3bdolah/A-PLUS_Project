@@ -1,8 +1,8 @@
-import React from 'react'
-import dots from '../assets/backgrounds/dots.png'
-import circle from '../assets/backgrounds/hero-cir.png'
-import rectangle from '../assets/backgrounds/hero-rec.png'
-import people from '../assets/people/hero-pic.png'
+import React from "react";
+import dots from "../assets/backgrounds/dots.png";
+import circle from "../assets/backgrounds/hero-cir.png";
+import rectangle from "../assets/backgrounds/hero-rec.png";
+import people from "../assets/people/hero-pic.png";
 
 const Hero = () => {
   return (
@@ -20,11 +20,11 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero hero_container-right">
-        {/* <img
+        <img
           src={people}
           alt="people"
           className="hero_container-right-people"
-        /> */}
+        />
         <img
           src={circle}
           alt="circle"
@@ -37,7 +37,7 @@ const Hero = () => {
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
